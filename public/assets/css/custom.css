@@ -1,0 +1,151 @@
+
+
+.c_hat{
+    color: rgb(255, 174, 0);
+}
+
+.count-box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+
+}
+.constract0{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 80px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_100;
+}
+
+ .constract1 {
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 70px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_80;
+ }
+ .constract2 {
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 70px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_60;
+ }
+ .constract3 {
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 70px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_40;
+ }
+ .constract4 {
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 70px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_20;
+ }
+ .constract5 {
+    background-color: rgb(245, 245, 245);
+    position:relative;
+    height: 70px;
+        animation: 2s linear 0.3s infinite alternate slidein-low_10;
+ }
+
+  
+ @keyframes slidein-low_100  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:40%;
+    }
+ 
+ }
+ 
+ @keyframes slidein-low_80  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:33%;
+    }
+ 
+ }
+
+ @keyframes slidein-low_60  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:26%;
+    }
+ 
+ }
+ @keyframes slidein-low_40 {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:19%;
+    }
+ 
+ }
+ @keyframes slidein-low_20  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:10%;
+    }
+ 
+ }
+ @keyframes slidein-low_10  {
+    from {
+       top:0;
+    }
+    
+    to {
+       top:0%;
+    }
+ 
+ }
+
+
+ 
+.form1{
+   z-index: 100;
+   width: 60%;
+   outline-style: none;
+   border: none;
+   padding-top: 5px;
+   margin-bottom: 15px;
+
+   border-bottom:rgb(243, 202, 17) solid 3px;
+   background-color: rgba(192, 192, 192, 0);
+   border-radius: 0 !important;
+   color: rgb(59, 59, 59) !important;
+
+}
+
+
+.form1:focus{
+
+ outline-style: none;
+ border: none;
+ border-bottom:rgb(24, 216, 40) solid 3px;
+ background-color: rgba(192, 192, 192, 0);
+ border-radius: 0 !important;
+ color: rgb(59, 59, 59) !important;
+
+}
+::placeholder {
+ font-style: bold;
+ font-size: 1em;
+ color: rgb(59, 59, 59) !important;
+
+ padding: 5px;
+}
